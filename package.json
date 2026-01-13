@@ -4,6 +4,7 @@
   "description": "AI SEO Optimizer - Monorepo for frontend and backend",
   "private": true,
   "scripts": {
+    "postinstall": "cd frontend && npm install",
     "install:all": "npm install --prefix frontend && npm install --prefix backend",
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
     "dev:frontend": "cd frontend && npm run dev",
