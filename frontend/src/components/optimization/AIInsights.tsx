@@ -99,7 +99,7 @@ export default function AIInsights() {
                     {data.example && (
                       <div className="mt-3 p-3 bg-white/70 rounded-lg border border-current/20">
                         <div className="text-xs font-bold text-gray-600 mb-1">💡 Example:</div>
-                        <div className="text-sm text-gray-800 italic">"{data.example}"</div>
+                        <div className="text-sm text-gray-800 italic">&quot;{data.example}&quot;</div>
                       </div>
                     )}
                   </div>
